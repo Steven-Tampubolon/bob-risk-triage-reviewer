@@ -1,0 +1,5 @@
+requests
+pytest
+ibm-watsonx-ai
+python-dotenv
+flask
