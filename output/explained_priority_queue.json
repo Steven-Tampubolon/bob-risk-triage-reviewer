@@ -1,0 +1,902 @@
+[
+  {
+    "pr_number": 176825,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 75 yang menunjukkan dampak signifikan pada sistem. PR ini menyinggung beberapa modul penting dan menyebabkan perubahan konfigurasi serta dependensi, sehingga memerlukan perhatian khusus. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi yang mungkin memengaruhi keamanan."
+  },
+  {
+    "pr_number": 178132,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 75, yang menunjukkan perubahan yang signifikan pada banyak modul dan konfigurasi, serta adanya perubahan dependensi yang memerlukan perhatian khusus. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi dampak perubahan dependensi."
+  },
+  {
+    "pr_number": 178506,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 75 yang menunjukkan perubahan berdampak besar pada beberapa modul dan mengubah konfigurasi, yang memerlukan perhatian segera. Reviewer yang disarankan adalah dependency-review untuk memeriksa perubahan dependensi yang mungkin memengaruhi keamanan."
+  },
+  {
+    "pr_number": 180276,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki score prioritas 75, yang menunjukkan dampak yang signifikan pada sistem. PR ini menyinggung beberapa modul penting dan memiliki perubahan dependensi, meskipun tidak ada migrasi atau perubahan konfigurasi. Untuk keamanan, PR ini menjadi blocker merge dan direkomendasikan untuk direview oleh dependency-review."
+  },
+  {
+    "pr_number": 173438,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena mengubah konfigurasi (config) yang berdampak pada banyak modul (multi_module), sehingga memiliki radius dampak (blast radius) yang besar. Score prioritasnya 65 karena perubahan konfigurasi dianggap penting. Tim platform disarankan sebagai reviewer untuk mengevaluasi dampaknya secara menyeluruh."
+  },
+  {
+    "pr_number": 176551,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki skor priority yang tinggi (65) dan mempengaruhi beberapa modul (multi_module). Perubahan dependensi yang ada menimbulkan risiko keamanan, sehingga PR ini menjadi blocker untuk merge. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi yang mungkin memengaruhi stabilitas dan keamanan sistem."
+  },
+  {
+    "pr_number": 178693,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan konfigurasi yang signifikan (has_config_change=True), yang memerlukan perhatian khusus untuk mencegah masalah operasional. Score 65 menunjukkan dampak yang cukup besar, terutama karena mempengaruhi beberapa modul (blast_radius_label: multi_module). Tim platform disarankan untuk mereview karena perubahan konfigurasi yang mungkin mempengaruhi fungsionalitas utama."
+  },
+  {
+    "pr_number": 178735,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan konfigurasi yang ditandai oleh flag 'has_config_change', yang merupakan faktor penentu dalam perhitungan priority_score. Score 65 menunjukkan dampak yang signifikan terhadap sistem, terutama karena mempengaruhi beberapa modul. Untuk keamanan, PR ini menjadi blocker merge dan direkomendasikan untuk direview oleh platform-team."
+  },
+  {
+    "pr_number": 179699,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan konfigurasi yang signifikan (has_config_change=True) yang memblokir proses merge, menurut alasan keamanan yang diberikan. Score 65 menunjukkan dampak yang cukup besar karena mempengaruhi banyak modul (blast_radius_label: multi_module). Tim platform-team disarankan untuk mereview PR ini."
+  },
+  {
+    "pr_number": 180106,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan konfigurasi yang ditandai oleh flag 'has_config_change', yang merupakan faktor penting dalam menentukan prioritas. Score 65 menunjukkan dampak yang signifikan pada beberapa modul, termasuk homeassistant/components/sun dan tests, serta perubahan yang cukup besar dalam jumlah baris kode yang ditambahkan. Untuk keamanan, PR ini menjadi blocker merge, dan disarankan untuk direview oleh platform-team."
+  },
+  {
+    "pr_number": 180167,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki skor priority yang tinggi (65) dan mempengaruhi beberapa modul (multi_module). Perubahan dependensi (has_dependency_change) menjadi alasan keamanan yang penting, sehingga PR ini menjadi blocker untuk merge. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi."
+  },
+  {
+    "pr_number": 180243,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 65 yang menunjukkan perubahan signifikan yang mempengaruhi banyak modul (multi_module) dan mengubah konfigurasi (has_config_change=True). Ini menimbulkan risiko tinggi bagi stabilitas sistem. Reviewer yang disarankan adalah platform-team untuk mengevaluasi dampak perubahan secara menyeluruh."
+  },
+  {
+    "pr_number": 180256,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 65, yang menunjukkan dampak yang signifikan pada sistem. Score ini dipengaruhi oleh perubahan konfigurasi dan dependensi, yang memerlukan perhatian khusus. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi yang mungkin memengaruhi keamanan."
+  },
+  {
+    "pr_number": 180258,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan (has_dependency_change=True), yang memengaruhi beberapa modul (blast_radius_label: multi_module). Score 65 menunjukkan prioritas tinggi dalam pengembangan. Untuk keamanan, reviewer yang disarankan adalah dependency-review untuk memastikan perubahan dependensi tidak menimbulkan risiko."
+  },
+  {
+    "pr_number": 180259,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki priority_score 65 yang menunjukkan dampak signifikan pada banyak modul (multi_module) dan mengubah konfigurasi atau dependensi, yang memerlukan perhatian khusus. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi yang mungkin memengaruhi keamanan dan stabilitas sistem."
+  },
+  {
+    "pr_number": 180278,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan (has_dependency_change=True), yang memengaruhi beberapa modul (blast_radius_label: multi_module) dan memiliki skor blast radius yang tinggi (60). Ini menunjukkan dampak besar pada sistem, sehingga prioritasnya tinggi. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi secara menyeluruh."
+  },
+  {
+    "pr_number": 174116,
+    "blast_radius_label": "multi_module",
+    "priority_score": 55,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena melibatkan banyak modul (multi_module) yang berdampak pada blast radius, namun tidak menimbulkan perubahan migrasi, konfigurasi, dependensi, atau CI, sehingga skor prioritasnya 55. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180255,
+    "blast_radius_label": "multi_module",
+    "priority_score": 55,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena melibatkan banyak modul (multi_module) namun tidak mengubah konfigurasi, dependensi, atau CI. Score 55 menunjukkan prioritas sedang, bukan kritis. Tidak ada reviewer khusus yang disarankan."
+  },
+  {
+    "pr_number": 156175,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki priority_score 45, yang menunjukkan dampak sedang pada sistem. Score ini dihitung berdasarkan perubahan yang terjadi pada beberapa modul, meskipun tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Tidak ada saran reviewer khusus berdasarkan data yang diberikan."
+  },
+  {
+    "pr_number": 163199,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan konfigurasi yang ditandai oleh flag 'has_config_change'. Perubahan ini dianggap signifikan karena dapat memengaruhi perilaku sistem secara keseluruhan. Untuk itu, diperlukan review dari platform-team untuk memastikan perubahan tersebut aman dan tidak menimbulkan risiko keamanan. Score 45 menunjukkan prioritas tinggi meskipun blast radius relatif kecil, karena dampak konfigurasi yang besar."
+  },
+  {
+    "pr_number": 166148,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan konfigurasi yang ditandai oleh flag 'has_config_change', yang menimbulkan risiko keamanan yang signifikan. Score prioritas sebesar 45 menunjukkan dampak moderat hingga tinggi pada sistem. Untuk menangani risiko ini, tim platform disarankan untuk mereview PR ini."
+  },
+  {
+    "pr_number": 169334,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki flag `has_config_change` yang menunjukkan adanya perubahan konfigurasi atau pengaturan, yang dianggap sebagai faktor kritis dalam penilaian. Score 45 menunjukkan tingkat prioritas yang tinggi, meskipun tidak sangat ekstrem, karena perubahan ini mempengaruhi modul `homeassistant/components/switchbot` dan tes, yang menunjukkan dampak pada fungsionalitas utama. Untuk keamanan, PR ini menandai sebagai merge_blocker dan direkomendasikan untuk direview oleh tim platform."
+  },
+  {
+    "pr_number": 171679,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena mempengaruhi beberapa modul (multi_module) dengan skor blast radius 60, namun tidak menyinggung konfigurasi, migrasi, atau dependensi, sehingga skor prioritasnya 45. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 172864,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki priority_score 45, yang menunjukkan perubahan berdampak pada beberapa modul (multi_module) namun tidak menimbulkan risiko keamanan atau mengharuskan perubahan konfigurasi atau dependensi. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 173441,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki skor priority 45, yang menunjukkan perubahan yang signifikan namun tidak kritis terhadap sistem. Dengan mempengaruhi beberapa modul dan memiliki blast radius yang tinggi, PR ini memerlukan perhatian sedang dari tim engineering. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 174055,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki skor priority yang relatif tinggi (45) dan mempengaruhi beberapa modul (multi_module) yang menunjukkan dampak yang cukup besar. Namun, tidak ada perubahan konfigurasi, migrasi, atau dependensi yang memicu prioritas lebih tinggi. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 174367,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena score prioritasnya 45, yang menunjukkan dampak sedang pada banyak modul (blast_radius_label: multi_module). Sistem tidak merekomendasikan reviewer khusus untuk PR ini."
+  },
+  {
+    "pr_number": 175631,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR #175631 mendapat priority_label \"Medium\" dengan skor 45/100. Blast radius tergolong multi_module (indeks 60) karena PR ini menyentuh lebih dari satu modul substantif: homeassistant/components/zwave_js, tests. Total perubahan: 5 file, 10546 baris tambahan, 0 baris dihapus (churn 10546 baris)."
+  },
+  {
+    "pr_number": 176560,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki priority_score 45, yang menunjukkan perubahan sedang yang mempengaruhi beberapa modul (blast_radius_label: multi_module). Sistem tidak merekomendasikan reviewer khusus untuk PR ini."
+  },
+  {
+    "pr_number": 177884,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena score prioritasnya 45, yang menunjukkan perubahan berdampak pada beberapa modul (multi_module) namun tidak mengubah konfigurasi, dependensi, atau CI. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 178027,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki skor priority yang relatif sedang (45), yang menunjukkan dampak pada beberapa modul (multi_module) namun tidak menimbulkan risiko keamanan atau perubahan konfigurasi yang signifikan. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 179331,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki skor priority yang relatif sedang (45) dan mempengaruhi beberapa modul (multi_module) yang menunjukkan dampak sedang pada sistem. Tidak ada saran reviewer spesifik berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 179770,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki priority_score 45 yang menunjukkan perubahan sedang yang mempengaruhi beberapa modul (blast_radius_label: multi_module). Sistem tidak merekomendasikan reviewer khusus untuk PR ini."
+  },
+  {
+    "pr_number": 180035,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena score prioritasnya 45, yang menunjukkan perubahan berdampak pada beberapa modul (blast_radius_label: multi_module) namun tidak menimbulkan risiko keamanan atau perubahan konfigurasi yang signifikan. Tidak ada saran reviewer khusus berdasarkan data yang diberikan."
+  },
+  {
+    "pr_number": 180058,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena memiliki skor priority 45, yang menunjukkan perubahan yang berdampak pada beberapa modul (blast_radius_label: multi_module) namun tidak menimbulkan risiko keamanan atau mengharuskan perubahan konfigurasi. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180213,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan dependensi yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan, meskipun perubahan kode lokalnya kecil. Reviewer yang disarankan adalah \"dependency-review\" untuk memastikan perubahan dependensi tidak menimbulkan risiko keamanan."
+  },
+  {
+    "pr_number": 180226,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki konfigurasi atau perubahan pengaturan (config change) yang signifikan, seperti yang ditunjukkan oleh flag 'has_config_change' yang diset. Ini menimbulkan risiko yang tinggi bagi stabilitas sistem, sehingga memerlukan perhatian segera. Reviewer yang disarankan adalah platform-team untuk menangani perubahan ini dengan tepat."
+  },
+  {
+    "pr_number": 180230,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena melibatkan beberapa modul (blast_radius_label: multi_module) dan memiliki skor priority yang moderat (45). Namun, tidak ada perubahan konfigurasi, migrasi, atau CI, sehingga tidak dianggap sebagai prioritas tinggi. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180265,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena melibatkan banyak modul (multi_module) yang menaikkan blast radius score menjadi 60, namun tidak ada perubahan konfigurasi, migrasi, atau dependensi yang menurunkan skor priority menjadi 45. Tidak ada saran reviewer khusus berdasarkan konteks yang diberikan."
+  },
+  {
+    "pr_number": 180294,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan dependensi yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan. Score 45 menunjukkan dampak yang signifikan, meskipun tidak terlalu besar. Untuk keamanan, disarankan menggunakan dependency-review sebagai reviewer."
+  },
+  {
+    "pr_number": 180295,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan, yang menandai potensi dampak besar pada sistem jika terjadi masalah. Score 45 menunjukkan prioritas tinggi untuk perbaikan segera. Reviewer yang disarankan adalah dependency-review untuk memastikan perubahan dependensi diimplementasikan dengan aman."
+  },
+  {
+    "pr_number": 180307,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan dependensi yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan, meskipun skornya relatif rendah. Reviewer yang disarankan adalah dependency-review untuk memastikan perubahan dependensi tidak menimbulkan risiko keamanan."
+  },
+  {
+    "pr_number": 180314,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena priority_score 45 menunjukkan perubahan yang memiliki dampak sedang terhadap sistem, terutama karena mempengaruhi beberapa modul (blast_radius_label: multi_module). Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180321,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Medium\" karena priority_score 45, yang menunjukkan perubahan berdampak pada beberapa modul (multi_module) namun tidak menimbulkan risiko keamanan atau mengharuskan perubahan konfigurasi. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180330,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan dependensi yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan. Score 45 menunjukkan prioritas tinggi untuk perbaikan. Reviewer yang disarankan adalah \"dependency-review\" untuk memastikan perubahan dependensi tidak menimbulkan risiko keamanan."
+  },
+  {
+    "pr_number": 180335,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena adanya perubahan dependensi yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan, meskipun skor priority relatif rendah. Reviewer yang disarankan adalah \"dependency-review\" untuk memastikan perubahan dependensi tidak menimbulkan risiko keamanan."
+  },
+  {
+    "pr_number": 180338,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena perubahan terhadap dependensi (has_dependency_change=True) yang dapat mempengaruhi stabilitas dan keamanan sistem secara keseluruhan. Score 45 menunjukkan prioritas tinggi untuk perbaikan. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi dampak perubahan dependensi."
+  },
+  {
+    "pr_number": 180355,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan, yang dapat memengaruhi stabilitas dan keamanan sistem secara keseluruhan. Score 45 menunjukkan prioritas tinggi untuk perbaikan. Reviewer yang disarankan adalah \"dependency-review\" untuk mengevaluasi dampak perubahan dependensi secara mendalam."
+  },
+  {
+    "pr_number": 180375,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan (has_dependency_change=True), yang secara otomatis menandai PR tersebut sebagai blocker untuk merge dan meningkatkan risiko keamanan. Score prioritas 45 menunjukkan dampak yang cukup besar pada sistem, meskipun blast radius masih dianggap kecil atau lokal. Untuk keamanan, disarankan untuk menggunakan reviewer yang spesialis dalam review perubahan dependensi (dependency-review)."
+  },
+  {
+    "pr_number": 180428,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review",
+    "explanation": "PR ini mendapat label \"Critical\" karena memiliki perubahan dependensi yang signifikan, yang menandai potensi dampak yang besar pada sistem. Priority_score 45 menunjukkan tingkat prioritas tinggi untuk perbaikan. Reviewer yang disarankan adalah dependency-review untuk mengevaluasi perubahan dependensi secara mendalam."
+  },
+  {
+    "pr_number": 157062,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi satu modul (homeassistant/components/twitch) dengan perubahan kecil (2 file, 29 tambahan baris kode) dan tidak mempengaruhi migrasi, konfigurasi, dependensi, atau CI. Score blast radiusnya kecil (20) dan priority score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 162240,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi satu file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Score 25 menunjukkan dampak kecil pada sistem secara keseluruhan. Tidak ada reviewer yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 166748,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi satu modul dengan perubahan kode yang relatif kecil (26 tambahan, 18 penghapusan) dan tidak mempengaruhi konfigurasi, dependensi, atau CI. Blast radius kecil (20) juga menunjukkan dampak terbatas. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 169704,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 3 file dengan perubahan kode yang tidak signifikan (55 tambahan, 95 penghapusan) dan tidak menyinggung modul kritis atau mengubah konfigurasi, dependensi, atau CI. Blast radius kecil (20) menunjukkan dampak terbatas. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 172760,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi dua file dengan jumlah perubahan yang relatif kecil, tidak menyinggung modul kritis, dan tidak ada migrasi, perubahan konfigurasi, dependensi, atau CI yang terlibat. Oleh karena itu, dampak dan risikonya dianggap kecil. Tidak ada reviewer yang disarankan secara khusus."
+  },
+  {
+    "pr_number": 173378,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mengecek modul homeassistant/components/opentherm_gw dan tests, serta tidak mengubah konfigurasi, dependensi, atau CI, sehingga dampak perubahan kecil dan lokal. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 174251,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/forecast_solar) dan tidak menyinggung konfigurasi, dependensi, atau CI, sehingga blast radius kecil. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer khusus yang disarankan."
+  },
+  {
+    "pr_number": 174313,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi dua file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak memerlukan migrasi, perubahan konfigurasi, dependensi, atau CI. Score 25 menunjukkan dampak yang relatif kecil. Tidak ada reviewer yang disarankan secara khusus."
+  },
+  {
+    "pr_number": 174917,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul homeassistant/components/nexia dan tests, serta tidak menyinggung konfigurasi, dependensi, atau CI, sehingga blast radius kecil. Score 25 menunjukkan prioritas rendah, dan tidak ada reviewer khusus yang disarankan."
+  },
+  {
+    "pr_number": 176344,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul homeassistant/components/bsblan dan tests, serta tidak ada perubahan pada migrasi, konfigurasi, dependensi, atau CI. Blast radius kecil menunjukkan dampak terbatas. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 177614,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/duckdns) dan tidak menyinggung konfigurasi, dependensi, atau CI, serta tidak ada migrasi yang dilakukan. Score 25 menunjukkan dampak yang kecil dan tidak memerlukan perhatian instan. Tidak ada reviewer yang disarankan secara otomatis."
+  },
+  {
+    "pr_number": 177736,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena score prioritasnya hanya 25, yang menunjukkan dampak perubahan yang relatif kecil dan lokal, terutama pada modul homeassistant/components/frontier_silicon dan tests. Tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI, sehingga tidak memerlukan review yang mendalam. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 178305,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki priority_score 25 yang relatif rendah, menunjukkan dampak perubahan yang kecil dan lokal, terutama pada modul homeassistant/components/zha dan tests. Tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI, sehingga tidak memerlukan reviewer khusus."
+  },
+  {
+    "pr_number": 178369,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/smtp) dan tidak menyinggung konfigurasi, dependensi, atau CI, sehingga blast radius kecil. Score 25 menunjukkan prioritas rendah karena dampaknya terbatas pada tes internal. Tidak ada reviewer yang disarankan secara otomatis."
+  },
+  {
+    "pr_number": 178563,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan kecil (82 additions, 11 deletions) dan tidak menyinggung modul kritis atau mengubah konfigurasi, dependensi, atau CI. Score 25 menunjukkan dampak terbatas pada sistem secara keseluruhan. Tidak ada reviewer yang disarankan berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 178660,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/gatus) dan tidak menyinggung konfigurasi, migrasi, atau dependensi. Score 25 menunjukkan dampak kecil (small_or_local) dengan radius blast yang terbatas. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 178663,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" dengan priority_score 25 karena hanya mempengaruhi modul lokal (homeassistant/components/gatus, tests) tanpa perubahan migrasi, konfigurasi, dependensi, atau CI. Blast radius kecil (20) menunjukkan dampak terbatas. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 178737,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan yang signifikan (250 additions, 4 deletions) pada modul homeassistant/components/onboarding dan tests, tanpa adanya migrasi, perubahan konfigurasi, dependensi, atau CI. Score blast radius kecil (20) menunjukkan dampak lokal. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 179057,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul homeassistant/components/monzo dan tests, dengan perubahan kecil (397 additions, 48 deletions) dan tidak menyinggung konfigurasi, migrasi, atau CI. Blast radius kecil (20) menunjukkan dampak lokal. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 179202,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki priority_score 25 yang relatif rendah, menunjukkan dampak perubahan yang kecil dan lokal, terutama pada modul homeassistant/components/esphome dan tests. Blast radius score sebesar 20 juga mendukung klasifikasi ini. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 179509,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 3 file dengan perubahan sedang (298 additions, 63 deletions) dan tidak menyinggung modul kritis seperti migrasi, konfigurasi, atau dependensi. Blast radius kecil (20) menunjukkan dampak lokal. Sistem tidak merekomendasikan reviewer khusus, menunjukkan PR ini tidak memerlukan tinjauan keamanan spesifik."
+  },
+  {
+    "pr_number": 179546,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR #179546 mendapat priority_label \"Low\" dengan skor 25/100. Blast radius tergolong small_or_local (indeks 20), perubahan terlokalisasi dalam satu modul. Total perubahan: 3 file, 25 baris tambahan, 11 baris dihapus (churn 36 baris)."
+  },
+  {
+    "pr_number": 179700,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mengecek modul homeassistant/components/electrolux dan tests, serta tidak ada perubahan pada konfigurasi, dependensi, atau CI. Blast radius kecil karena hanya mempengaruhi area lokal. Score priority 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan untuk diperhatikan."
+  },
+  {
+    "pr_number": 180036,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul homeassistant/components/velux dan tests, serta tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Blast radius kecil menunjukkan dampak lokal, sehingga prioritas rendah. Tidak ada saran reviewer khusus."
+  },
+  {
+    "pr_number": 180048,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki priority_score 25 yang relatif rendah, menunjukkan dampak perubahan yang kecil dan lokal, terutama pada modul homeassistant/components/litterrobot dan tests. Blast radius score sebesar 20 juga mendukung klasifikasi ini. Tidak ada perubahan konfigurasi, dependensi, atau CI, sehingga tidak memerlukan reviewer khusus."
+  },
+  {
+    "pr_number": 180075,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/collection_image) dan tidak menyentuh area kritis seperti migrasi, konfigurasi, atau dependensi. Score 25 menunjukkan dampak kecil pada radius blast, sesuai dengan perubahan kecil pada 7 file dengan 176 tambahan baris kode. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180178,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mengubah 1 file dengan jumlah perubahan kecil (2 additions dan 2 deletions) pada modul tests, tanpa adanya migrasi, perubahan konfigurasi, dependensi, atau CI. Score blast radius kecil (20) menunjukkan dampak perubahan lokal. Score prioritas 25 dari skala 0-100 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180199,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya menyinggung dua modul, yaitu homeassistant/components/lutron_caseta dan tests, serta tidak mengubah konfigurasi, dependensi, atau CI. Blast radius score sebesar 20 menunjukkan dampak perubahan yang kecil atau lokal. Dengan demikian, prioritas PR ini dianggap rendah. Tidak ada reviewer yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180214,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan kecil (41 tambahan, 5 penghapusan) dan tidak menyinggung modul kritis atau mengubah konfigurasi, migrasi, atau dependensi. Score 25 menunjukkan dampak lokal yang rendah. Tidak ada reviewer yang disarankan secara otomatis."
+  },
+  {
+    "pr_number": 180247,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi dua file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak memerlukan migrasi, perubahan konfigurasi, atau dependensi. Score blast radius rendah menunjukkan dampak lokal. Sistem tidak merekomendasikan reviewer khusus."
+  },
+  {
+    "pr_number": 180261,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya menyinggung modul homeassistant/components/fronius dan tests, serta tidak mempengaruhi konfigurasi, dependensi, atau CI. Blast radius kecil menunjukkan dampak lokal. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180266,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul tests dengan perubahan kecil (55 additions, 0 deletions) dan tidak mempengaruhi konfigurasi, dependensi, atau CI. Blast radius kecil (20) menunjukkan dampak lokal. Score prioritas 25 (Low) sesuai dengan dampak yang rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180270,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul tests tanpa perubahan pada konfigurasi, dependensi, atau CI, serta tidak mempengaruhi blast radius secara signifikan. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180275,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki priority_score 25 yang relatif rendah, menunjukkan dampak perubahan yang kecil dan lokal, terutama pada modul device_tracker dan tests. Blast radius score sebesar 20 juga mendukung kategori \"small_or_local\". Tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI, sehingga tidak memerlukan review khusus. Tidak ada saran reviewer tambahan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180298,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi satu file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak memerlukan migrasi, perubahan konfigurasi, atau dependensi. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer khusus yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180303,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 modul (homeassistant/components/librenms dan tests) dengan jumlah perubahan kecil (374 additions, 1 deletion) dan tidak menyinggung area kritis seperti migrasi, konfigurasi, dependensi, atau CI. Score blast radius sebesar 20 menunjukkan dampak lokal yang kecil. Dengan priority score 25, PR ini dianggap memiliki prioritas rendah. Tidak ada reviewer khusus yang disarankan."
+  },
+  {
+    "pr_number": 180311,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi satu modul dengan perubahan kecil (3 tambahan, 40 penghapusan) dan tidak mempengaruhi konfigurasi, migrasi, atau dependensi. Blast radius kecil menunjukkan dampak terbatas. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180312,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 3 file dengan jumlah perubahan kecil (58 additions dan 8 deletions), serta hanya mempengaruhi modul homeassistant/components/hotspring dan tests tanpa adanya perubahan migrasi, konfigurasi, dependensi, atau CI. Score priority yang rendah (25) menunjukkan dampak perubahan yang relatif kecil. Tidak ada reviewer yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180315,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan perubahan kecil (14 tambahan, 13 penghapusan) dan tidak menyinggung modul kritis atau mengubah konfigurasi, dependensi, atau CI. Score blast radius rendah (20) menunjukkan dampak lokal. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180316,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan perubahan kecil (6 tambahan, 79 penghapusan) pada modul scrape, tanpa migrasi, perubahan konfigurasi, dependensi, atau CI. Blast radius kecil (20) menunjukkan dampak lokal. Score prioritas 25 dari skala 0-100 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180324,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan kecil (4 tambahan, 79 penghapusan) pada modul homeassistant/components/sql, tanpa adanya migrasi, perubahan konfigurasi, dependensi, atau CI. Score blast radius kecil (20) menunjukkan dampak lokal. Dengan priority_score 25, PR ini dianggap rendah prioritas. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180342,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 4 file dengan perubahan kecil (4 additions, 1 deletion) dan hanya memodifikasi satu modul, yaitu homeassistant/components/nice_go. Blast radius-nya kecil, sehingga skornya hanya 20. Score prioritasnya 25 (Low) karena tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Tidak ada saran reviewer khusus berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180345,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki priority_score 25 yang relatif rendah, menunjukkan dampak perubahan yang kecil dan lokal terhadap sistem. Blast radius score sebesar 20 juga mendukung hal ini, menunjukkan perubahan yang terbatas pada modul homeassistant/components/midea dan tests. Tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI, sehingga tidak memerlukan review khusus. Tidak ada rekomendasi reviewer khusus berdasarkan data yang diberikan."
+  },
+  {
+    "pr_number": 180357,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 3 file dengan jumlah perubahan kecil (70 additions dan 11 deletions), serta hanya mempengaruhi modul homeassistant/components/http dan tests. Skor blast radius sebesar 20 menunjukkan dampak perubahan yang kecil atau lokal. PR ini tidak mempengaruhi migrasi, konfigurasi, dependensi, atau CI, sehingga tidak memerlukan perhatian tinggi. Tidak ada reviewer yang disarankan berdasarkan konteks ini."
+  },
+  {
+    "pr_number": 180359,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan kecil (26 additions dan 2 deletions), serta hanya mempengaruhi modul homeassistant/components/wled dan tests. Blast radius score sebesar 20 menunjukkan dampak perubahan yang kecil dan lokal. Score prioritas 25 (skala 0-100) dan label \"Low\" sesuai dengan karakteristik perubahan yang minim. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180364,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena memiliki blast radius kecil atau lokal, yang menunjukkan dampak perubahan terbatas pada sistem. Score prioritas 25 menunjukkan tingkat prioritas rendah dalam antrian pengembangan. Tidak ada saran reviewer khusus berdasarkan informasi yang diberikan."
+  },
+  {
+    "pr_number": 180367,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi dua file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Score 25 menunjukkan dampak lokal yang rendah. Tidak ada reviewer khusus yang disarankan."
+  },
+  {
+    "pr_number": 180368,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/spotify) dan tidak menyinggung konfigurasi, dependensi, atau CI, sehingga blast radius kecil. Score 25 menunjukkan prioritas rendah karena tidak ada perubahan signifikan atau risiko keamanan. Tidak ada reviewer yang disarankan secara khusus."
+  },
+  {
+    "pr_number": 180369,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi 2 file dengan jumlah perubahan kecil, tidak menyinggung modul kritis, dan tidak ada perubahan migrasi, konfigurasi, dependensi, atau CI. Score 25 menunjukkan prioritas rendah. Tidak ada reviewer yang disarankan."
+  },
+  {
+    "pr_number": 180392,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null,
+    "explanation": "PR ini mendapat label \"Low\" karena hanya mempengaruhi modul lokal (homeassistant/components/sofar) dan tidak menyinggung konfigurasi, dependensi, atau CI, sehingga blast radius kecil. Score 25 menunjukkan prioritas rendah karena dampaknya terbatas pada area lokal tanpa perubahan signifikan. Tidak ada reviewer yang disarankan secara khusus."
+  }
+]

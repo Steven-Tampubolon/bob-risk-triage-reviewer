@@ -1,5 +1,6 @@
 requests
 pytest
+responses
 ibm-watsonx-ai
 python-dotenv
 flask

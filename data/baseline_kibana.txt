@@ -1,0 +1,70 @@
+GENERAL BASELINE
+repository: elastic/kibana
+period: 2026-03-01 to 2026-08-27
+sample_size_merged_prs: 100
+human_reviewed_prs: 67
+human_review_coverage_percent: 67.0
+mean_first_human_review_hours: 5.92
+median_first_human_review_hours: 2.6
+p75_first_human_review_hours: 10.32
+p90_first_human_review_hours: 18.91
+
+RISK SEGMENTS
+
+[high_risk]
+sample_size: 25
+human_reviewed_prs: 16
+human_review_coverage_percent: 64.0
+mean_hours: 5.91
+median_hours: 0.59
+p75_hours: 3.39
+p90_hours: 18.28
+
+[normal_risk]
+sample_size: 75
+human_reviewed_prs: 51
+human_review_coverage_percent: 68.0
+mean_hours: 5.92
+median_hours: 2.7
+p75_hours: 10.32
+p90_hours: 18.91
+
+SCOPE SEGMENTS
+
+[multi_module]
+sample_size: 34
+human_reviewed_prs: 27
+human_review_coverage_percent: 79.41
+mean_hours: 5.54
+median_hours: 1.76
+p75_hours: 6.62
+p90_hours: 19.06
+
+[small_or_local]
+sample_size: 66
+human_reviewed_prs: 40
+human_review_coverage_percent: 60.61
+mean_hours: 6.17
+median_hours: 2.7
+p75_hours: 10.32
+p90_hours: 16.66
+
+AI PROVENANCE SEGMENTS
+
+[explicit_ai]
+sample_size: 0
+human_reviewed_prs: 0
+human_review_coverage_percent: 0
+mean_hours: 
+median_hours: 
+p75_hours: 
+p90_hours: 
+
+[human_or_unknown]
+sample_size: 100
+human_reviewed_prs: 67
+human_review_coverage_percent: 67.0
+mean_hours: 5.92
+median_hours: 2.6
+p75_hours: 10.32
+p90_hours: 18.91

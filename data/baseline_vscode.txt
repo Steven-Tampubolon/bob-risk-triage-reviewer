@@ -1,0 +1,70 @@
+GENERAL BASELINE
+repository: microsoft/vscode
+period: 2026-03-01 to 2026-08-27
+sample_size_merged_prs: 100
+human_reviewed_prs: 100
+human_review_coverage_percent: 100.0
+mean_first_human_review_hours: 2.87
+median_first_human_review_hours: 1.01
+p75_first_human_review_hours: 2.68
+p90_first_human_review_hours: 6.69
+
+RISK SEGMENTS
+
+[high_risk]
+sample_size: 59
+human_reviewed_prs: 59
+human_review_coverage_percent: 100.0
+mean_hours: 2.79
+median_hours: 1.42
+p75_hours: 3.39
+p90_hours: 6.89
+
+[normal_risk]
+sample_size: 41
+human_reviewed_prs: 41
+human_review_coverage_percent: 100.0
+mean_hours: 2.98
+median_hours: 0.7
+p75_hours: 1.38
+p90_hours: 6.18
+
+SCOPE SEGMENTS
+
+[multi_module]
+sample_size: 58
+human_reviewed_prs: 58
+human_review_coverage_percent: 100.0
+mean_hours: 3.27
+median_hours: 1.55
+p75_hours: 4.32
+p90_hours: 7.78
+
+[small_or_local]
+sample_size: 42
+human_reviewed_prs: 42
+human_review_coverage_percent: 100.0
+mean_hours: 2.32
+median_hours: 0.69
+p75_hours: 1.2
+p90_hours: 2.04
+
+AI PROVENANCE SEGMENTS
+
+[explicit_ai]
+sample_size: 9
+human_reviewed_prs: 9
+human_review_coverage_percent: 100.0
+mean_hours: 8.13
+median_hours: 6.18
+p75_hours: 6.89
+p90_hours: 27.71
+
+[human_or_unknown]
+sample_size: 91
+human_reviewed_prs: 91
+human_review_coverage_percent: 100.0
+mean_hours: 2.35
+median_hours: 0.96
+p75_hours: 2.0
+p90_hours: 5.22

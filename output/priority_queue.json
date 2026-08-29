@@ -1,0 +1,802 @@
+[
+  {
+    "pr_number": 176825,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 178132,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 178506,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180276,
+    "blast_radius_label": "multi_module",
+    "priority_score": 75,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 173438,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 176551,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 178693,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 178735,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 179699,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 180106,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 180167,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180243,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 180256,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180258,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180259,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180278,
+    "blast_radius_label": "multi_module",
+    "priority_score": 65,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 174116,
+    "blast_radius_label": "multi_module",
+    "priority_score": 55,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180255,
+    "blast_radius_label": "multi_module",
+    "priority_score": 55,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 156175,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 163199,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 166148,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 169334,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 171679,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 172864,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 173441,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 174055,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 174367,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 175631,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 176560,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 177884,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178027,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179331,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179770,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180035,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180058,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180213,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180226,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "platform-team"
+  },
+  {
+    "pr_number": 180230,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180265,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180294,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180295,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180307,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180314,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180321,
+    "blast_radius_label": "multi_module",
+    "priority_score": 45,
+    "priority_label": "Medium",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180330,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180335,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180338,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180355,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180375,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 180428,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 45,
+    "priority_label": "Critical",
+    "merge_blocker": true,
+    "required_reviewer": "dependency-review"
+  },
+  {
+    "pr_number": 157062,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 162240,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 166748,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 169704,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 172760,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 173378,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 174251,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 174313,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 174917,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 176344,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 177614,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 177736,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178305,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178369,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178563,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178660,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178663,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 178737,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179057,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179202,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179509,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179546,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 179700,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180036,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180048,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180075,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180178,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180199,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180214,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180247,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180261,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180266,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180270,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180275,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180298,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180303,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180311,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180312,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180315,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180316,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180324,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180342,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180345,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180357,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180359,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180364,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180367,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180368,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180369,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  },
+  {
+    "pr_number": 180392,
+    "blast_radius_label": "small_or_local",
+    "priority_score": 25,
+    "priority_label": "Low",
+    "merge_blocker": false,
+    "required_reviewer": null
+  }
+]
